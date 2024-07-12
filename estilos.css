@@ -1,30 +1,79 @@
+html{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: (weight);
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+body{
+    background-image: radial-gradient(circle, #ffffff, #f7f6fc, #ededf9, #e4e5f6, #d9ddf3, #d5d9f4, #d2d6f6, #cfd2f7, #d5d1fb, #ddcffd, #e5cdff, #efcbff);
+}
 .carousel-item {
     position: center;
     height: 400px;
     background-position: center center;
     background-repeat: no-repeat; 
 }
-nav { background-color: #b7f3f3;
-}
 #titulo-música {
     text-align: center;
-    text-size-adjust: large;
 }
 #titulo-música{
     font-family: 'Times New Roman', Times, serif;
-    font-size: large;
-    font-weight: 900;
-    font-style: italic oblique;
+    font-weight: 8rem;
 }
 p{
     font-size: medium;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 300;
     font-style: normal;
+    margin: 0 auto;
+    margin-left: 5%;
 }
 .center {
     width: 200;
     margin: 0 auto;
     background-attachment: fixed;
-    background-image: linear-gradient(to top, #da9dc0, #d19dca, #c59fd3, #b6a1db, #a4a4e2, #93adec, #7fb6f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+.carousel{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1%;
+}
+a:link{
+    transition: color 0.2s ease-in;
+    color: #061b25;
+}
+a:visited{
+    transition: color 0.2s ease-in;
+    color: #4d14aa;
+}
+a:hover{
+    transition: color 0.2s ease-in;
+    color: #1510a6;
+}
+a:active{
+    transition: color 0.2s ease-in;
+    color: #9910a6;
+}
+ul {
+    list-style-type: none;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+li:hover{
+    cursor: pointer;
+    background-color: gainsboro;
+}
+footer p {
+    background-color: #0f0727;
+    color: white;
+    text-align: center;
+}
+section h4{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+section{
+    margin-left: 5%;
+    margin-right: 5%;
 }
