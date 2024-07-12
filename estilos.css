@@ -1,0 +1,8 @@
+.carousel-item {
+    position: center;
+    height: 400px;
+    background-position: center center;
+    background-repeat: no-repeat; 
+}
+nav { background-color: #b7f3f3;
+}
