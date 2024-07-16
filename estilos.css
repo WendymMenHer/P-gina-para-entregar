@@ -1,3 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+* {
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+.logo {
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+nav a:hover,
+nav a.active {
+    color: rgb(166, 76, 245);
+}
+section {
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: 700;
+}
 html{
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
@@ -14,12 +35,10 @@ body{
     background-position: center center;
     background-repeat: no-repeat; 
 }
-#titulo-música {
-    text-align: center;
-}
 #titulo-música{
     font-family: 'Times New Roman', Times, serif;
     font-weight: 8rem;
+    text-align: 0 center;
 }
 p{
     font-size: medium;
@@ -76,4 +95,15 @@ section h4{
 section{
     margin-left: 5%;
     margin-right: 5%;
+}
+.filtro{
+    display: none;
+}
+section h4{
+    text-align: center;
+    display: flex;
+}
+section a{
+    text-align: left;
+    display: flex;
 }

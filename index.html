@@ -12,7 +12,7 @@
 </head>
 <body>
     <header>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"> Canciones que me gustan </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,25 +21,20 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Estados de ánimo
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Rockera</a></li>
-                  <li><a class="dropdown-item" href="#">Triste</a></li>
-                  <li><a class="dropdown-item" href="#">Romántica</a></li>
-                  <li><a class="dropdown-item" href="#">Electrónica</a></li>
-                  <li><a class="dropdown-item" href="#">Metalosa</a></li>
+                <li class="nav-item">
+                  <li><a class="nav-link" href="#Rockera">Rockera</a></li>
+                  <li><a class="nav-link" href="#Triste">Triste</a></li>
+                  <li><a class="nav-link" href="#Romántica">Romántica</a></li>
+                  <li><a class="nav-link" href="#Electrónica">Electrónica</a></li>
+                  <li><a class="nav-link" href="#Metalosa">Metalosa</a></li>
                 </ul>
               </li>
             </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Buscar canción" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Buscar</button>
-            </form>
-          </div>
-        </div>
-        </nav>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Buscar canción" aria-label="Search" id="buscador">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
+      </nav>
     </header>
         <div id="imágenes-del-carrusel" class="carousel slide" data-bs-ride="carousel" class="container-lg">
             <div class="carousel-inner">
@@ -71,42 +66,52 @@
                 </p>
           </section>
             <br>
-            <section>
+            <section id="lista">
+              <section id="Rockera"> 
                 <h4>Rockera</h4>
                 <ul>
-                    <li><a target="_blank" href="https://youtu.be/lDK9QqIzhwk?si=xJNs8FkI0yf_Tuax">Bon Jovi - Livin' On A Prayer</a></li>
-                    <li><a target="_blank" href="https://youtu.be/u1V8YRJnr4Q?si=TgtkAYioOW4xO2Ih">Creedence Clearwater Revival - Have You Ever Seen The Rain</a></li>
-                    <li><a target="_blank" href="https://youtu.be/7pOr3dBFAeY?si=FXE2XqqEpcl0LaXU">Scorpions - Still Loving You</a></li>
-                    <li><a target="_blank" href="https://youtu.be/djV11Xbc914?si=3faUtR3GBr99jfP-">A-ha - Take On Me</a></li>
+                    <li><a target="_blank" href="https://youtu.be/lDK9QqIzhwk?si=xJNs8FkI0yf_Tuax" class="cancion">Bon Jovi - Livin' On A Prayer</a></li>
+                    <li><a target="_blank" href="https://youtu.be/u1V8YRJnr4Q?si=TgtkAYioOW4xO2Ih" class="cancion">Creedence Clearwater Revival - Have You Ever Seen The Rain</a></li>
+                    <li><a target="_blank" href="https://youtu.be/7pOr3dBFAeY?si=FXE2XqqEpcl0LaXU" class="cancion">Scorpions - Still Loving You</a></li>
+                    <li><a target="_blank" href="https://youtu.be/djV11Xbc914?si=3faUtR3GBr99jfP-" class="cancion">A-ha - Take On Me</a></li>
                 </ul>
+              </section> 
+              <section id="Triste">  
                 <h4>Triste</h4>
                 <ul>
-                    <li><a target="_blank" href="https://youtu.be/K5R5FF1KKmw?si=YJ_2ooXCNWmVA1F1">bülow - Sweet Little Lies</a></li>
-                    <li><a target="_blank" href="https://youtu.be/ZAfAud_M_mg?si=ZEM10ktarJF0hQDD">Halsey - Without Me</a></li>
-                    <li><a target="_blank" href="https://youtu.be/5anLPw0Efmo?si=empbLlgJt143vnBv">Evanescence - My Immortal</a></li>
-                    <li><a target="_blank" href="https://youtu.be/5-ZiKXrnvog?si=qGbwE2_6DfAY6zil">MIIA - Dynasty</a></li>
+                    <li><a target="_blank" href="https://youtu.be/K5R5FF1KKmw?si=YJ_2ooXCNWmVA1F1" class="cancion">bülow - Sweet Little Lies</a></li>
+                    <li><a target="_blank" href="https://youtu.be/ZAfAud_M_mg?si=ZEM10ktarJF0hQDD" class="cancion">Halsey - Without Me</a></li>
+                    <li><a target="_blank" href="https://youtu.be/5anLPw0Efmo?si=empbLlgJt143vnBv" class="cancion">Evanescence - My Immortal</a></li>
+                    <li><a target="_blank" href="https://youtu.be/5-ZiKXrnvog?si=qGbwE2_6DfAY6zil" class="cancion">MIIA - Dynasty</a></li>
                 </ul>
+              </section> 
+              <section id="Romántica"> 
                 <h4>Romántica</h4>
                 <ul>
-                    <li><a target="_blank" href="https://youtu.be/7nk_zukRqdY?si=Vl85T_jaZDiyOamP">Zzoilo, Aitana - Mon Amour</a></li>
-                    <li><a target="_blank" href="https://youtu.be/Qz9gmiLBVFA?si=Gznmq1emMJO7aaEu">Sebastián Yatra - Tacones Rojos</a></li>
-                    <li><a target="_blank" href="https://youtu.be/cF1Na4AIecM?si=_dP8Xf2vKchNU6Fw">Sabrina Carpenter - Please Please Please</a></li>
-                    <li><a target="_blank" href="https://youtu.be/M8r3x4Re8-I?si=_6UcQt1WVtHCVHzx">Babymonster - Like that</a></li>
+                    <li><a target="_blank" href="https://youtu.be/7nk_zukRqdY?si=Vl85T_jaZDiyOamP" class="cancion">Zzoilo, Aitana - Mon Amour</a></li>
+                    <li><a target="_blank" href="https://youtu.be/Qz9gmiLBVFA?si=Gznmq1emMJO7aaEu" class="cancion">Sebastián Yatra - Tacones Rojos</a></li>
+                    <li><a target="_blank" href="https://youtu.be/cF1Na4AIecM?si=_dP8Xf2vKchNU6Fw" class="cancion">Sabrina Carpenter - Please Please Please</a></li>
+                    <li><a target="_blank" href="https://youtu.be/M8r3x4Re8-I?si=_6UcQt1WVtHCVHzx" class="cancion">Babymonster - Like that</a></li>
                 </ul>
+              </section>
+              <section id="Electrónica">
                 <h4>Electrónica</h4>
                 <ul>
-                    <li><a target="_blank" href="https://youtu.be/cndhRi4RMnM?si=738pGPrxumnwSmo7">Zafrir, Afrojack - Boom Boom Pow</a></li>
-                    <li><a target="_blank" href="https://youtu.be/ccu6JuC21rk?si=tM96QafjafODp6BO">Alan Walker, Putri Ariani, Peder Elias - Who I Am</a></li>
-                    <li><a target="_blank" href="https://youtu.be/90RLzVUuXe4?si=9fjg_4hdcURBzmuu">David Guetta & Bebe Rexha - I'm Good </a></li>
-                    <li><a target="_blank" href="https://youtu.be/4G6QDNC4jPs?si=fBlbI55iHPYR5sVt">Cascada - Everytime We Touch</a></li>
+                    <li><a target="_blank" href="https://youtu.be/cndhRi4RMnM?si=738pGPrxumnwSmo7" class="cancion">Zafrir, Afrojack - Boom Boom Pow</a></li>
+                    <li><a target="_blank" href="https://youtu.be/ccu6JuC21rk?si=tM96QafjafODp6BO" class="cancion">Alan Walker, Putri Ariani, Peder Elias - Who I Am</a></li>
+                    <li><a target="_blank" href="https://youtu.be/90RLzVUuXe4?si=9fjg_4hdcURBzmuu" class="cancion">David Guetta & Bebe Rexha - I'm Good </a></li>
+                    <li><a target="_blank" href="https://youtu.be/4G6QDNC4jPs?si=fBlbI55iHPYR5sVt" class="cancion">Cascada - Everytime We Touch</a></li>
                 </ul>
+              </section>
+              <section id="Metalosa">
                 <h4>Metalosa</h4>
                 <ul>
-                    <li><a target="_blank" href="https://youtu.be/vVZ7DFx6hP8?si=zsDTTXWbfrrnB8w1">Xandria - My curse is my redemption</a></li>
-                    <li><a target="_blank" href="https://youtu.be/t3WFHztGJtw?si=pshV7a0skcJJ9PmC">Sirenia - My Mind's Eye</a></li>
-                    <li><a target="_blank" href="https://youtu.be/D8lV1To-_fU?si=ve0-fHaZUk221jdT">Amaranthe - Amaranthine</a></li>
-                    <li><a target="_blank" href="https://youtu.be/-vkyV84Ho7Q?si=QUfElcOBdAZfAKcP">Sirenia - Lost in life</a></li>
+                    <li><a target="_blank" href="https://youtu.be/vVZ7DFx6hP8?si=zsDTTXWbfrrnB8w1" class="cancion">Xandria - My curse is my redemption</a></li>
+                    <li><a target="_blank" href="https://youtu.be/t3WFHztGJtw?si=pshV7a0skcJJ9PmC" class="cancion">Sirenia - My Mind's Eye</a></li>
+                    <li><a target="_blank" href="https://youtu.be/D8lV1To-_fU?si=ve0-fHaZUk221jdT" class="cancion">Amaranthe - Amaranthine</a></li>
+                    <li><a target="_blank" href="https://youtu.be/-vkyV84Ho7Q?si=QUfElcOBdAZfAKcP" class="cancion">Sirenia - Lost in life</a></li>
                 </ul>
+              </section>
             </section>
         <footer>
             <p class="container-fluid">Esta página ha sido creada única y exclusivamente para mostrar mis conocimientos aprendidos en el curso de Mujer Digital, cuarta generación. </p>
